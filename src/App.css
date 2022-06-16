@@ -1,0 +1,48 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.app{
+    min-height: 100vh;
+    background-color: #39445a;
+    color:#ffffff;
+    padding-top: 100px;
+     padding-bottom: 70px;
+}
+
+.bottomNavigation{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2d313a !important;
+    z-index: 100;
+    color:#ffffff !important;
+}
+.bottomNavigation  a{
+    color:#fff;
+}
+
+@media (max-width: 700px){
+    .app{
+        padding-top: 85px;
+    }
+}
+
+
+.pageTitle{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vw;
+    padding:4px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+@media (max-width:1000px){
+    .pageTitle{
+        font-size: 6.4vw;
+    }
+}
